@@ -45,12 +45,12 @@ function getNews() {
   const stored = localStorage.getItem("newshub_news");
   if (!stored) {
     localStorage.setItem("newshub_news", JSON.stringify(DEFAULT_NEWS));
-    return [...DEFAULT_NEWS];
-  }
-
-  const news = JSON.parse(stored).map(item => ({
-    ...item,
-    image: item.image && item.image.startsWith("img/")
+   const news = JSON.parse(stored).map(item => ({
+  ...item,
+  image: item.image && !item.image.startsWith("img/")
+    ? item.image
+    : getImageByCategory(item.category)
+}));
       ? item.image
       : getImageByCategory(item.category)
   }));
