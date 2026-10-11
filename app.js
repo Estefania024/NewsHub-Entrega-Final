@@ -7,7 +7,7 @@ const DEFAULT_NEWS = [
     id: 1,
     title: "Innovación educativa y nuevas herramientas digitales",
     category: "Educación",
-    date: "2026-11-01",
+    date: "2026-09-01",
     description: "Nuevas herramientas digitales apoyan los procesos de aprendizaje.",
     image: "educacion.jpg",
     content: "La transformación digital continúa incorporando recursos que facilitan el acceso a contenidos educativos y nuevas experiencias de aprendizaje."
@@ -16,7 +16,7 @@ const DEFAULT_NEWS = [
     id: 2,
     title: "Tendencias tecnológicas para el segundo semestre",
     category: "Tecnología",
-    date: "2026-11-05",
+    date: "2026-09-05",
     description: "Conoce algunas tendencias que marcarán el desarrollo tecnológico.",
     image: "tecnologia.jpg",
     content: "La inteligencia artificial, la automatización y las soluciones basadas en datos continúan generando nuevas oportunidades para organizaciones y usuarios."
@@ -25,7 +25,7 @@ const DEFAULT_NEWS = [
     id: 3,
     title: "Destinos turísticos para descubrir",
     category: "Turismo",
-    date: "2026-11-08",
+    date: "2026-09-08",
     description: "Ideas para planear experiencias turísticas y culturales.",
     image: "turismo.jpg",
     content: "Los destinos con experiencias culturales, naturales y gastronómicas ofrecen alternativas para diferentes perfiles de viajeros."
@@ -34,7 +34,7 @@ const DEFAULT_NEWS = [
     id: 4,
     title: "Nuevas oportunidades para el comercio digital",
     category: "Comercio",
-    date: "2026-11-10",
+    date: "2026-09-10",
     description: "El comercio electrónico sigue ampliando sus canales de atención.",
     image: "comercio.jpg",
     content: "Las herramientas digitales permiten a pequeños y medianos negocios ampliar su presencia y establecer nuevos canales de comunicación con sus clientes."
