@@ -73,10 +73,10 @@ function saveFavorites(favorites) {
 
 function getImageByCategory(category) {
   const images = {
-    "Educación": "img/educacion.jpg",
-    "Tecnología": "img/tecnologia.jpg",
-    "Turismo": "img/turismo.jpg",
-    "Comercio": "img/comercio.jpg"
+    "Educación": "educacion.jpg",
+    "Tecnología": "tecnologia.jpg",
+    "Turismo": "turismo.jpg",
+    "Comercio": "comercio.jpg"
   };
   return images[category] || "educacion.jpg";
 }
