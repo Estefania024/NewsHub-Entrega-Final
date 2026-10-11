@@ -9,7 +9,7 @@ const DEFAULT_NEWS = [
     category: "Educación",
     date: "2026-09-01",
     description: "Nuevas herramientas digitales apoyan los procesos de aprendizaje.",
-    image: "img/educacion.jpg",
+    image: "educacion.jpg",
     content: "La transformación digital continúa incorporando recursos que facilitan el acceso a contenidos educativos y nuevas experiencias de aprendizaje."
   },
   {
@@ -18,7 +18,7 @@ const DEFAULT_NEWS = [
     category: "Tecnología",
     date: "2026-09-05",
     description: "Conoce algunas tendencias que marcarán el desarrollo tecnológico.",
-    image: "img/tecnologia.jpg",
+    image: "tecnologia.jpg",
     content: "La inteligencia artificial, la automatización y las soluciones basadas en datos continúan generando nuevas oportunidades para organizaciones y usuarios."
   },
   {
@@ -27,7 +27,7 @@ const DEFAULT_NEWS = [
     category: "Turismo",
     date: "2026-09-08",
     description: "Ideas para planear experiencias turísticas y culturales.",
-    image: "img/turismo.jpg",
+    image: "turismo.jpg",
     content: "Los destinos con experiencias culturales, naturales y gastronómicas ofrecen alternativas para diferentes perfiles de viajeros."
   },
   {
@@ -36,7 +36,7 @@ const DEFAULT_NEWS = [
     category: "Comercio",
     date: "2026-09-10",
     description: "El comercio electrónico sigue ampliando sus canales de atención.",
-    image: "img/comercio.jpg",
+    image: "comercio.jpg",
     content: "Las herramientas digitales permiten a pequeños y medianos negocios ampliar su presencia y establecer nuevos canales de comunicación con sus clientes."
   }
 ];
